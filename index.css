@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+:root{
+    --yellow:#FFBD13;
+    --blue:#4383FF;
+    --blue-d-1:#3278FF;
+    --light:#F5F5F5;
+    --grey:#AAA;
+    --white:#FFF;
+    --shadow:8px 8px 30px rgba(0,0,0,.05);
+
+
+}
+body{
+    background: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #48894e;
+}
+
+.wrapper{
+    background: var(--white);
+    padding: 2rem;
+    max-width: 576px;
+    width: 100%;
+    border-radius:.75rem;
+    box-shadow: var(--shadow);
+    text-align: center;
+
+}
+.wrapper h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+.Rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap:.5rem;
+    font-size: 2rem;
+    color: var(--yellow);
+    margin-bottom: 2rem;
+}
+.Rating.star{
+    cursor: pointer;
+}
+.Rating.star.active{
+    opacity: 0;
+    animation: animate.5e calc(var(--i))ease-in-out forwards;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.Rating.star:hover{
+    transform: scale(1.1);
+}
+
+textarea{
+    width: 100%;
+    background: var(--light);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: .5rem;
+
+
+}
+.btn-group{
+    display: flex;
+    grid-gap:.5rem;
+    align-items: center;
+
+}
+.btn-group .btn{
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 500;
+
+}
+.btn-group .btn.submit{
+    background:var(--blue);
+    color: var(--white);
+
+}
+.btn-group .btn.submit:hover{
+    background: var(--blue-d-1);
+}
+.btn-group .btn.cancel{
+    background: var(--white);
+    color: var(--blue);
+
+
+}
+.btn-group .btn.cancel:hover{
+    background: var(--light);
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.Rating {
+    font-size: 2rem;
+}
+
+.Rating .bx-star {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.Rating .bx-star:hover,
+.Rating .bx-star.active {
+    color: #00ff4c; /* Change to your desired star color on hover or when selected */
+}
+
+.hidden {
+    display: none;
+}

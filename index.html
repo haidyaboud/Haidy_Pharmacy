@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <title>Star Rating</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h3>Your Opinion Matters.</h3>
+        <form id="ratingForm">
+            <div class="Rating" id="ratingStars">
+                <input type="hidden" name="Rating" id="ratingValue">
+                <i class='bx bx-star star' data-value="1"></i>
+                <i class='bx bx-star star' data-value="2"></i>
+                <i class='bx bx-star star' data-value="3"></i>
+                <i class='bx bx-star star' data-value="4"></i>
+                <i class='bx bx-star star' data-value="5"></i>
+            </div>
+            <textarea name="opinion" id="opinion" cols="30" rows="5" placeholder="Your opinion..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button type="button" class="btn cancel">Cancel</button>
+            </div>
+        </form>
+        <div id="thankYouMessage" class="hidden">Thank you for your review!</div>
+    </div>
+
+    <script src="rev.js"></script>
+</body>
+</html>

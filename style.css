@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(229, 19, 149);
+}
+/* Style the card */
+.card {
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Style the card header */
+.card-header {
+   
+    color: rgb(0, 0, 0);
+}
+
+/* Style the card body */
+.card-body {
+    padding: 20px;
+}
+
+/* Style the form labels */
+.form-group label {
+    font-weight: bold;
+}
+
+/* Style the form inputs */
+.form-group input {
+    border-radius: 0;
+}
+
+/* Style the form button */
+.form-group button {
+    width: 100%;
+    border-radius: 0;
+}

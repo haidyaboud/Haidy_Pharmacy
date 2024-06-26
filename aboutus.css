@@ -1,0 +1,221 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Robobto' ,sans-serif ;
+}
+body{
+    background-color: #d5ddd8;
+}
+.heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    color:#194727;
+    margin-bottom: 25px;
+    position: relative;
+}
+.heading h1::after{
+    content: "";
+    position:absolute;
+    width:100%;
+    height:4px;
+    display:block;
+    margin:0 auto;
+    background-color: #399555;
+
+}
+.heading p{
+    font-size: 18px;
+    color:#3d704c;
+    margin-bottom: 35px;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+    padding:10px 20px;
+}
+.container2{
+    width:90%;
+    margin:0 auto;
+    padding:10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+.about2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+.about-image{
+    flex: .7;
+    margin-left: 40px;
+    margin-right: -150px;
+    overflow: hidden;
+}
+.about-image2{
+    flex: .5;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height :auto;
+    display: block;
+    transition: 0,5s ease;
+}
+.about-image2 img{
+    max-width: 100%;
+    height :auto;
+    display: block;
+    transition: 0,5s ease;
+}
+.about-image:hover img{
+    transform: scale(1.2);
+}
+.about-image2:hover img{
+    transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content2{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color:#3b6948;
+}
+.about-content2 h3{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color:#3b6948;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4a8e5d;
+}
+.about-content2 p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4a8e5d;
+}
+.about-content .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a7e9ba;
+    color: #a7e9ba;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.about-content2 .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a7e9ba;
+    color: #a7e9ba;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.about-content .read-more{
+    background-color: #4b6953;
+}
+
+.about-content2 .read-more{
+    background-color: #4b6953;
+}
+@media screen and (max-width:768px) {
+    .heading{
+    padding : 0px 20px;
+    }
+    .heading h1{
+        font-size: 17px;
+    }
+    .heading p{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .container{
+        padding:0px
+    }
+    .container2{
+        padding:0px
+    }
+    .about{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about2{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-image2{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content{
+        padding :0px;
+        font-size: 16px;
+    }
+    .about-content2{
+        padding :0px;
+        font-size: 16px;
+    }
+    .about-content .read-more
+    {
+        font: size 16px; ;
+    }
+    .about-content2 .read-more
+    {
+        font: size 16px; ;
+    }
+}
+.phname {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+   color: #ffffff; 
+}
+.navbar-bg {
+    background-color: #48894e;
+}
+.Logo {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-nav{
+    font-family: 'Roboto', sans-serif;
+   
+}
+.navbar-nav .nav-link {
+    margin-right: 40px; 
+    color: #fff;
+}

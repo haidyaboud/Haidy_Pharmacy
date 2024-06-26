@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+#cart-icon {
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.phname {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+   color: #ffffff; 
+}
+.navbar-bg {
+    background-color: #48894e;
+}
+.Logo {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-nav{
+    font-family: 'Roboto', sans-serif;
+   
+}
+.navbar-nav .nav-link {
+    margin-right: 40px; 
+    color: #fff;
+}
+body {
+    font-family:  sans-serif , Arial;
+    margin: auto;
+    padding: auto;
+}
+header
+{
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    color:#008136; 
+}
+.header-icons {
+    position: absolute ;
+    top: 50px;
+    right: 10px;
+    display: flex; 
+}
+
+
+
+.font{
+
+    margin: 20;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #174113;
+}
+
+.icon-button {
+    /* display: inline; */
+    padding: 10px;
+    background-color:#85ec89; 
+    /* cursor: pointer; */
+
+}
+
+.love-icon {
+    width: 20px;
+    height: 10px;
+}
+.love-icon:hover {
+    background-color: #ec0b0b;
+}
+.icon-button:hover 
+{
+    background-color: #7df190;
+}
+.list{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #174113;
+}
+#l{
+    font-size: 25px;
+}
+
+.card-img-top.slider-img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    width: 1200px;;
+    height:700px ;
+}
+.footer {
+    background-color: #48894e;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.footer h4 {
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 0;
+}
